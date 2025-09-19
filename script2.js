@@ -15,7 +15,7 @@ document.body.appendChild(imagemMotivacional); // Adiciona no final da página
 const conteudoPorHumor = {
   feliz: {
     frases: [
-      "Continue espalhando essa energia positiva!",
+      "Continue espalhando essa energia positiva para todos!",
       "Aproveite cada momento de alegria!",
       "Sua felicidade pode inspirar outras pessoas."
     ],
