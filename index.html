@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Painel do Bem-Estar</title>
+  <!-- Conectando o CSS externo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Título principal da página -->
+  <h1>Painel do Bem-Estar</h1>
+
+  <!-- Mensagem inicial de incentivo -->
+  <p class="mensagem-fixa"> Cuidar de si é um ato de coragem!!!</p>
+
+  <!-- Formulário para o usuário registrar seu humor -->
+  <form id="humor-form">
+    <label for="humor">Como você está se sentindo hoje?</label><br>
+    <input type="text" id="humor" placeholder="Ex: Feliz, Ansioso, Tranquilo">
+    <button type="submit">Registrar Humor</button>
+  </form>
+
+  <!-- Área onde aparecerá o humor registrado -->
+  <p id="humor-registrado"></p>
+
+  <!-- Botão para sortear mensagem motivacional -->
+  <button id="mensagem-btn">Receber mensagem motivacional</button>
+
+  <!-- Área onde será exibida a mensagem sorteada -->
+  <p id="mensagem-motivacional"></p>
+
+  <!-- Conectando o JavaScript -->
+  <script src="script2.js"></script>
+</body>
+</html>

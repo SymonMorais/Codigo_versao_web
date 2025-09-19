@@ -1,0 +1,40 @@
+/* Estilo geral da página */
+body {
+  font-family: Arial, sans-serif; /* Fonte limpa e legível */
+  background-color: #e6f7f7; /* Fundo suave (azul claro) */
+  text-align: center; /* Centraliza o conteúdo */
+  padding: 20px;
+}
+
+/* Título principal */
+h1 {
+  color: #006666;
+}
+
+/* Mensagem inicial de incentivo */
+.mensagem-fixa {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Caixa de entrada e botões */
+input, button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px; /* Bordas arredondadas */
+  border: 1px solid #999;
+  font-size: 16px;
+}
+
+/* Botões com cor e efeito */
+button {
+  background-color: #009999;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007777;
+}
